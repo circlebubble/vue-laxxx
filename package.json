@@ -1,12 +1,12 @@
 {
-  "name": "vue-laxx",
+  "name": "vue-laxxx",
   "description": "A Laxxx project ported to vue",
-  "version": "0.0.0-development",
+  "version": "0.2.0",
   "license": "MIT",
-  "main": "dist/vue-laxx.common.js",
-  "module": "dist/vue-laxx.esm.js",
-  "unpkg": "dist/vue-laxx.js",
-  "jsdelivr": "dist/vue-laxx.js",
+  "main": "dist/vue-laxxx.common.js",
+  "module": "dist/vue-laxxx.esm.js",
+  "unpkg": "dist/vue-laxxx.js",
+  "jsdelivr": "dist/vue-laxxx.js",
   "files": [
     "src",
     "dist/*.js"

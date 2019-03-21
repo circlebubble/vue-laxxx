@@ -1,33 +1,3 @@
-<template>
-  <div
-    :data-lax-preset="setPreset"
-    :data-lax-optimize="optimize"
-    :data-lax-opacity="opacity"
-    :data-lax-translate="translate"
-    :data-lax-translate-x="translateX"
-    :data-lax-translate-y="translateY"
-    :data-lax-scale="scale"
-    :data-lax-scale-x="scaleX"
-    :data-lax-scale-y="scaleY"
-    :data-lax-skew="skew"
-    :data-lax-skew-x="skewX"
-    :data-lax-skew-y="skewY"
-    :data-lax-rotate="rotate"
-    :data-lax-brightness="brightness"
-    :data-lax-contrast="contrast"
-    :data-lax-hue-rotate="hueRotate"
-    :data-lax-blur="blur"
-    :data-lax-invert="invert"
-    :data-lax-saturate="saturate"
-    :data-lax-grayscale="grayscale"
-    :data-lax-bg-pos="bgPosition"
-    :data-lax-bg-pos-x="bgPositionX"
-    :data-lax-bg-pos-y="bgPositionY"
-  >
-    <slot />
-  </div>
-</template>
-
 <script>
 import lax from 'lax.js'
 
@@ -207,6 +177,35 @@ export default {
     setTimeout(() => {
       lax.addElement(this.$el)
     }, 100)
+  },
+  render(h) {
+    return h("div", {
+      attrs: {
+        'data-lax-preset': this.setPreset,
+        'data-lax-optimize': this.optimize,
+        'data-lax-opacity': this.opacity,
+        'data-lax-translate': this.translate,
+        'data-lax-translate-x': this.translateX,
+        'data-lax-translate-y': this.translateY,
+        'data-lax-scale': this.scale,
+        'data-lax-scale-x': this.scaleX,
+        'data-lax-scale-y': this.scaleY,
+        'data-lax-skew': this.skew,
+        'data-lax-skew-x': this.skewX,
+        'data-lax-skew-y': this.skewY,
+        'data-lax-rotate': this.rotate,
+        'data-lax-brightness': this.brightness,
+        'data-lax-contrast': this.contrast,
+        'data-lax-hue-rotate': this.hueRotate,
+        'data-lax-blur': this.blur,
+        'data-lax-invert': this.invert,
+        'data-lax-saturate': this.saturate,
+        'data-lax-grayscale': this.grayscale,
+        'data-lax-bg-pos': this.bgPosition,
+        'data-lax-bg-pos-x': this.bgPositionX,
+        'data-lax-bg-pos-y': this.bgPositionY
+      }
+    }, this.$slots.default)
   }
 }
 </script>
