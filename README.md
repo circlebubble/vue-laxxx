@@ -15,7 +15,7 @@
 
 ## Installation
 ```
-npm install vue-laxx
+npm install vue-laxxx
 ```
 vue-laxx can be used as a module in both CommonJS and ES modular environments.
 
@@ -26,7 +26,7 @@ When in non-modular environment, vue-laxx will register all the components to vu
 //
 // You can register a component manually
 //
-import { VueLaxxx } from 'vue-laxx';
+import { VueLaxxx } from 'vue-laxxx';
 
 export default {
   ...
@@ -39,7 +39,7 @@ export default {
 //
 // or register the whole module with vue
 //
-import VueLaxxx from 'vue-laxx';
+import VueLaxxx from 'vue-laxxx';
 
 // Install this library
 Vue.use(VueLaxxx);
@@ -51,7 +51,7 @@ Vue.use(VueLaxxx);
 // You can register a component manually
 //
 var Vue = require('vue');
-var { VueLaxxx } = require('vue-laxx');
+var { VueLaxxx } = require('vue-laxxx');
 
 var YourComponent = Vue.extend({
   ...
@@ -65,7 +65,7 @@ var YourComponent = Vue.extend({
 // or register the whole module with vue
 //
 var Vue = require('vue');
-var VueLaxxx = require('vue-laxx');
+var VueLaxxx = require('vue-laxxx');
 
 // Install this library
 Vue.use(VueLaxxx);
