@@ -84,9 +84,9 @@
     "stylus": "0.54.7",
     "stylus-loader": "3.0.2",
     "uglify-es": "3.3.10",
-    "vue": "2.6.10",
+    "vue": "2.6.11",
     "vue-loader": "15.7.2",
-    "vue-template-compiler": "2.6.10"
+    "vue-template-compiler": "2.6.11"
   },
   "config": {
     "commitizen": {
