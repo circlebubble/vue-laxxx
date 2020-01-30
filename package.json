@@ -67,7 +67,7 @@
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-vue": "6.1.2",
     "husky": "4.2.1",
-    "lint-staged": "10.0.4",
+    "lint-staged": "10.0.5",
     "lodash": "4.17.15",
     "prettier": "1.19.1",
     "rollup": "1.30.1",
